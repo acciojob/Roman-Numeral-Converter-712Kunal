@@ -23,7 +23,7 @@ function convertToRoman(num) {
 
 		while (num >= value) {
 			ans += symbol;
-			ans -= value;
+			num -= value;
 		}
 	}
 
